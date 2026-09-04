@@ -88,7 +88,7 @@ export default function Products() {
       {/* Staggered Gallery Grid */}
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-24 md:gap-y-32">
-          {productCatalog.map((product, index) => (
+          {productCatalog.map((product) => (
             <motion.div
               key={product.id}
               initial={{ opacity: 0, y: 50 }}

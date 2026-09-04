@@ -22,7 +22,7 @@ const textVariants = {
     y: 0,
     transition: {
       duration: 1,
-      ease: [0.16, 1, 0.3, 1], // Custom cubic-bezier for a premium, smooth deceleration
+      ease: [0.16, 1, 0.3, 1] as const, // Custom cubic-bezier for a premium, smooth deceleration
     },
   },
 };
