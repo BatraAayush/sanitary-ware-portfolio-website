@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import bathroomParallelImage from "../assets/bathroom.jpg";
-import bathroomParallelImage2 from "../assets/bathroom-image-2.jpg";
+import bathroomParallelImage from "../assets/bathroom.webp";
+import bathroomParallelImage2 from "../assets/bathroom-image-2.webp";
 
 // Reusable Parallax Image Component
 const ParallaxImage = ({ src, alt }: { src: string; alt: string }) => {

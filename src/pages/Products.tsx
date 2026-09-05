@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-import osloImg from "../assets/oslo-bath.jpg";
-import milanImg from "../assets/milan-sink.jpg";
-import viennaImg from "../assets/vienna-wc.jpg";
-import lyonImg from "../assets/lyon-sink.jpg";
-import berlinImg from "../assets/berlin-tap.jpg";
-import zurichImg from "../assets/zurich-shower.jpg";
+import osloImg from "../assets/oslo-bath.webp";
+import milanImg from "../assets/milan-sink.webp";
+import viennaImg from "../assets/vienna-wc.webp";
+import lyonImg from "../assets/lyon-sink.webp";
+import berlinImg from "../assets/berlin-tap.webp";
+import zurichImg from "../assets/zurich-shower.webp";
 
 // Hardcoded product database for the assignment
 export const productCatalog = [

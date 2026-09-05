@@ -1,5 +1,5 @@
 // src/components/SmoothScroll.tsx
-import { ReactLenis } from "lenis/react";
+// import { ReactLenis } from "lenis/react";
 
 export default function SmoothScroll({
   children,
@@ -7,8 +7,8 @@ export default function SmoothScroll({
   children: React.ReactNode;
 }) {
   return (
-    <ReactLenis root options={{ lerp: 0.08, duration: 1.5, smoothWheel: true }}>
-      {children}
-    </ReactLenis>
+    // <ReactLenis root options={{ lerp: 0.08, duration: 1.5, smoothWheel: true }}>
+    <div>{children}</div>
+    // </ReactLenis>
   );
 }

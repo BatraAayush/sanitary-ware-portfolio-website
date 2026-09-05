@@ -63,7 +63,7 @@ export default function Footer() {
           AURA<span className="italic text-neutral-500">.</span>
         </h2>
         <p className="text-neutral-600 text-sm">
-          © {new Date().getFullYear()} Aura Fixtures 7. All rights reserved.
+          © {new Date().getFullYear()} Aura Fixtures. All rights reserved.
         </p>
       </div>
     </footer>

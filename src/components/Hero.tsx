@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImage from "../assets/hero-image.avif";
+import heroImage from "../assets/hero-image.webp";
 import { useLenis } from "lenis/react";
 
 // Animation variants for the stagger effect
