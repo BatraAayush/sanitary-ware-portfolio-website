@@ -16,7 +16,6 @@ A high-performance, luxury-themed product portfolio web application built with R
 - Product Details (/products/:id): Dynamic individual item pages with sticky high-resolution imagery, technical specifications (materials, dimensions, weight), and quote requests.
 - Contact & Inquiries (/contact): Client communication hub featuring an interactive form with real-time validation and a success feedback modal.
 - Terms & Conditions (/terms): Legal page outlining commercial purchase policies, warranty conditions, and studio service terms.
-- Privacy Policy (/privacy): Data protection statement detailing how client information and inquiries are handled securely.
 
 ---
 
