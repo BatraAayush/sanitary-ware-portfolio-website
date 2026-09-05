@@ -36,14 +36,14 @@ A high-performance, luxury-themed product portfolio web application built with R
 Follow these steps to run the project locally on your machine:
 
 1. Clone the Repository:
-git clone https://github.com/BatraAayush/sanitary-ware-portfolio-website.git
-cd sanitary-ware-portfolio-website
+   git clone https://github.com/BatraAayush/sanitary-ware-portfolio-website.git
+   cd sanitary-ware-portfolio-website
 
 2. Install Dependencies:
-npm install
+   npm install
 
 3. Run Development Server:
-npm run dev
+   npm run dev
 
 4. Build for Production:
-npm run build
+   npm run build
