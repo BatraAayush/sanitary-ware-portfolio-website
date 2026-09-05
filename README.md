@@ -27,7 +27,7 @@ A high-performance, luxury-themed product portfolio web application built with R
 - Animations: Framer Motion
 - Routing: React Router DOM
 - Icons: Lucide React
-- Deployment: Netlify (with client-side routing fallback configuration via _redirects)
+- Deployment: Netlify (with client-side routing fallback configuration via \_redirects)
 
 ---
 
@@ -36,14 +36,27 @@ A high-performance, luxury-themed product portfolio web application built with R
 Follow these steps to run the project locally on your machine:
 
 1. Clone the Repository:
-   git clone https://github.com/BatraAayush/sanitary-ware-portfolio-website.git
-   cd sanitary-ware-portfolio-website
+
+```bash
+git clone https://github.com/BatraAayush/sanitary-ware-portfolio-website.git
+
+cd sanitary-ware-portfolio-website
+```
 
 2. Install Dependencies:
-   npm install
+
+```bash
+ npm install
+```
 
 3. Run Development Server:
-   npm run dev
+
+```bash
+ npm run dev
+```
 
 4. Build for Production:
-   npm run build
+
+```bash
+ npm run build
+```
