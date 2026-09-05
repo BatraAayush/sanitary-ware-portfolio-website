@@ -1,75 +1,49 @@
-# React + TypeScript + Vite
+# AURA | Luxury Architectural Fixtures & Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, luxury-themed product portfolio web application built with React, TypeScript, Tailwind CSS, and Framer Motion. Designed with an Awwwards-caliber aesthetic, smooth navigation, and a refined editorial layout.
 
-Currently, two official plugins are available:
+## Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Live Website: https://aura-ab.netlify.app/
+- GitHub Repository: https://github.com/BatraAayush/sanitary-ware-portfolio-website
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features & Pages
 
-## Expanding the ESLint configuration
+- Home (/): Immersive landing page featuring a cinematic hero section, brand philosophy, interactive scroll anchors, and curated collection highlights.
+- Products Catalog (/products): Comprehensive grid displaying the complete 6-item luxury fixture collection with responsive layouts and category filtering.
+- Product Details (/products/:id): Dynamic individual item pages with sticky high-resolution imagery, technical specifications (materials, dimensions, weight), and quote requests.
+- Contact & Inquiries (/contact): Client communication hub featuring an interactive form with real-time validation and a success feedback modal.
+- Terms & Conditions (/terms): Legal page outlining commercial purchase policies, warranty conditions, and studio service terms.
+- Privacy Policy (/privacy): Data protection statement detailing how client information and inquiries are handled securely.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Core: React (Vite), TypeScript
+- Styling: Tailwind CSS
+- Animations: Framer Motion
+- Routing: React Router DOM
+- Icons: Lucide React
+- Deployment: Netlify (with client-side routing fallback configuration via _redirects)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
-```
+## Getting Started Locally
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Follow these steps to run the project locally on your machine:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. Clone the Repository:
+git clone https://github.com/BatraAayush/sanitary-ware-portfolio-website.git
+cd sanitary-ware-portfolio-website
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. Install Dependencies:
+npm install
 
-```
+3. Run Development Server:
+npm run dev
+
+4. Build for Production:
+npm run build
